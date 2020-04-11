@@ -31,7 +31,6 @@ end
 
 def winner(board)
 winning_board = won?(board)
-winning_char = win_combo(board)[0][0]
 if winning_board == nil
   return nil
 else 
