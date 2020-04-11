@@ -33,8 +33,6 @@ def winner(board)
 winning_board = won?(board)
 if winning_board == nil
   return nil
-else 
-  return winning_char
 end
 end
 
