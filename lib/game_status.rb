@@ -34,7 +34,7 @@ winning_board = won?(board)
 if winning_board == nil
   return nil
 end
-winning_char = win_combo(board)[0][0]
+winning_char = board[win_combo(board)[0][0]]
 if winning_board != nil 
   return winning_char
 end
