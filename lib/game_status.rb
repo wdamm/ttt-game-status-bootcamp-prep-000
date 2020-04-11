@@ -30,9 +30,13 @@ def over?(board)
 end
 
 def winner(board)
-winner = won?(board)
-if winner == nil
+winning_board = won?(board)
+winning_char = 
+if winning_board == nil
   return nil
+else 
+  return
+  
 end
 
 end
