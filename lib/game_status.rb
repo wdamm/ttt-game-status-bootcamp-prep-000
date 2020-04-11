@@ -30,13 +30,10 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board) != false
-  array = won?(board)
-    space = array[0]
-    win_sig = board[space]
-    win_sig
-  else
-    nil
+winner = won?(board)
+if winner == nil
+  return nil
 end
+
 end
 
